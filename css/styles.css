@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1c1c1c;
+    font-family: 'Inter' , sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 50vh;
+}
+
+/* Typography */
+
+h1, p {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Karla' , sans-serif;
+    font-size: 40px;
+    margin-bottom: .25em;
+}
+
+p {
+    color: #d5d4d8;
+    margin-bottom: 2em;
+}
+
+.small-text {
+    font-size: 14px;
+    font-weight: italic;
+    margin: 0;
+}
+
+.top .small-text {
+    margin-bottom: .5em;
+}
+
+.bottom .small-text {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.text-accent {
+    color: #55f991;
+}
+
+/* Layout */
+
+.container {
+    background-color: #1f2937;
+    margin: 0 auto;
+    width: 550px;
+    height: 550px;
+    padding: 2em;
+    padding-top: 4em;
+}
+
+.top {
+    border-bottom: #2f3e53;
+    margin-bottom: 2em;
+    padding: 2em 0;
+}
+
+.new-passwords {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-gap: 1em;
+}
+
+/* button & inputs */
+
+.btn, .new-password, .pw-length {
+    font-size: 16px;
+    font-family: inherit;
+    border: none;
+    border-radius: 6px;
+    padding: .5em 1em;
+}
+
+.btn {
+    background-color: #10b981;
+    color: white;
+    margin-bottom: 1.5em;
+    cursor: pointer;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #047857;
+}
+
+.btn-pw-generator {
+    margin-bottom: 0;
+
+}
+
+.pw-length {
+    text-align: center;
+    width: 3em;
+}
+
+.new-password {
+    background-color: #263549;
+    color: #55f991;
+    text-align: center;
+}
+
+
+
+
