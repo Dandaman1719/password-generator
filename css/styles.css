@@ -7,9 +7,6 @@ body {
     background-color: #1c1c1c;
     font-family: 'Inter' , sans-serif;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 20px;
     height: 50vh;
 }
@@ -110,10 +107,9 @@ hr {
 }
 
 .new-pw-container {
-    display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr;
-    grid-gap: 1em;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .new-password {
@@ -123,6 +119,7 @@ hr {
     width: 211px;
     color: #55f991;
     text-align: center;
+    margin: 10px 0;
 }
 
 
