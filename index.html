@@ -15,23 +15,23 @@
         <div class="top">
             <h1>Generate a <br><span class="text-accent">random password</span></h1>
             <p>Never use an insecure password again.</p>
-            <p class="small-text">Password Length:</p>
+            <p class="small-text small-text-pw-length">Password Length:</p>
             <div>
                 <button class="btn btn-pw-length" id="btn-pw-length-dec">-</button>
                 <input type="text" class="pw-length" id="password-length" value="20" readonly>
                 <button class="btn btn-pw-length" id="btn-pw-length-inc">+</button>
             </div>
             <button class="btn btn-pw-generator" id="btn-generate-pw">Generate Passwords</button>
+            <p class="small-text small-text-copy">Click on a password to copy to clipboard</p>
+            <hr>
         </div>
         <div class="bottom">
-            <p class="small-text">Click on a password to copy to clipboard</p>
-            <div class="new-passwords">
-                <input type="text" class="new-password" value='' id="password0" readonly>
-                <input type="text" class="new-password" value='' id="password1" readonly>
-                <input type="text" class="new-password" value='' id="password2" readonly>
-                <input type="text" class="new-password" value='' id="password3" readonly>
-
-            </div>
+            <div class="new-pw-container">
+                    <input type="text" class="new-password" value='' id="password0" readonly>
+                    <input type="text" class="new-password" value='' id="password1" readonly>
+                    <input type="text" class="new-password" value='' id="password2" readonly>
+                    <input type="text" class="new-password" value='' id="password3" readonly>
+             </div>
         </div>
     </div>
     <script src="index.js"></script>

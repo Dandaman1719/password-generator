@@ -31,19 +31,26 @@ p {
     margin-bottom: 2em;
 }
 
+hr {
+    border: 1px solid #2F3E53;
+    width: 525px;
+    
+}
+
 .small-text {
-    font-size: 14px;
+    font-size: 10px;
     font-weight: italic;
     margin: 0;
 }
 
-.top .small-text {
+.small-text-pw-length {   
     margin-bottom: .5em;
 }
 
-.bottom .small-text {
+.small-text-copy {
     text-align: center;
-    margin-bottom: 2em;
+    margin: 1em 0;
+
 }
 
 .text-accent {
@@ -63,14 +70,12 @@ p {
 
 .top {
     border-bottom: #2f3e53;
-    margin-bottom: 2em;
     padding: 2em 0;
 }
 
 .new-passwords {
-    display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr;
-    grid-gap: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 /* button & inputs */
@@ -104,8 +109,18 @@ p {
     width: 3em;
 }
 
+.new-pw-container {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-gap: 1em;
+
+}
+
 .new-password {
     background-color: #263549;
+    border: 1px solid #2F3E53;
+    height: 39px;
+    width: 211px;
     color: #55f991;
     text-align: center;
 }
